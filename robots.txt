@@ -1,0 +1,51 @@
+# ============================================================
+#  AURÉLIO CLARK CONTABILIDADE — robots.txt
+#  Site: https://aurelioclarkcontabilidade.com.br
+#  Atualizado: 2026-07-04
+# ============================================================
+
+# Regra para todos os crawlers
+User-agent: *
+Allow: /
+
+# Bloquear arquivos desnecessários para indexação
+Disallow: /css/
+Disallow: /js/
+Disallow: /imgs/fundo.png
+Disallow: /imgs/fundo_movel.png
+
+# Permitir explicitamente recursos importantes
+Allow: /imgs/logo.png
+Allow: /index.html
+Allow: /sitemap.xml
+
+# Regras específicas para o Googlebot (imagens incluídas)
+User-agent: Googlebot
+Allow: /
+Allow: /imgs/
+
+# Regras para Googlebot-Image (indexação de imagens)
+User-agent: Googlebot-Image
+Allow: /imgs/logo.png
+
+# Bloquear bots de scraping maliciosos
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+# Sitemap XML
+Sitemap: https://aurelioclarkcontabilidade.com.br/sitemap.xml
+
+# Crawl delay recomendado (não obrigatório, mas gentil com servidores compartilhados)
+Crawl-delay: 5

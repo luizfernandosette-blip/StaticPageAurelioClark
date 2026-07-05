@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xsi:schemaLocation="
+    http://www.sitemaps.org/schemas/sitemap/0.9
+    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+    http://www.google.com/schemas/sitemap-image/1.1
+    http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+
+  <!-- ══════════════════════════════════════
+       AURÉLIO CLARK CONTABILIDADE
+       Sitemap  —  aurelioclarkcontabilidade.com.br
+  ═══════════════════════════════════════ -->
+
+  <!-- Página Inicial (Home) -->
+  <url>
+    <loc>https://aurelioclarkcontabilidade.com.br/</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://aurelioclarkcontabilidade.com.br/imgs/logo.png</image:loc>
+      <image:title>Aurélio Clark Contabilidade — Logotipo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://aurelioclarkcontabilidade.com.br/imgs/fundo.png</image:loc>
+      <image:title>Aurélio Clark Contabilidade — Hero Banner Desktop</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://aurelioclarkcontabilidade.com.br/imgs/fundo_movel.png</image:loc>
+      <image:title>Aurélio Clark Contabilidade — Hero Banner Mobile</image:title>
+    </image:image>
+  </url>
+
+  <!-- Âncoras como URLs semânticas (single-page anchors) -->
+  <url>
+    <loc>https://aurelioclarkcontabilidade.com.br/#sobre</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://aurelioclarkcontabilidade.com.br/#servicos</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://aurelioclarkcontabilidade.com.br/#diferenciais</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://aurelioclarkcontabilidade.com.br/#contato</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
